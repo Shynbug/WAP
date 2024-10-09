@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{graphicx}    % For including figures
+\usepackage{amsmath}     % For math symbols
+\usepackage{amssymb}     % For more math symbols
+\usepackage{geometry}    % For page dimensions
+\usepackage{hyperref}    % For hyperlinks
+\usepackage{caption}     % For figure captions
+\usepackage{cite}        % For citations
+\usepackage{fancyhdr}    % For headers and footers
+
+% Page settings
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=30mm,
+    bottom=30mm
+}
+
+% Custom header and footer
+\pagestyle{fancy}
+\fancyhead[L]{Research Paper Title} % Left side of the header
+\fancyhead[R]{Your Name}            % Right side of the header
+\fancyfoot[C]{\thepage}             % Centered page number in the footer
+
+\begin{document}
+
+% Title section
+\title{Basic Layout of a Research Paper in \LaTeX}
+\author{Your Name\\Your Institution\\\texttt{your.email@example.com}}
+\date{\today}
+\maketitle
+
+% Abstract
+\begin{abstract}
+This is a concise summary of your research paper, usually around 150–250 words. It should briefly describe the purpose, methodology, key results, and conclusions of your research.
+\end{abstract}
+
+\tableofcontents  % Generates the table of contents
+\newpage          % Start a new page for the introduction
+
+% Introduction
+\section{Introduction}
+This section provides background information and sets the context for your research. It should explain the problem, highlight relevant literature, and specify the research objectives.
+
+% Methods
+\section{Methods}
+Describe the methodology used to conduct the research. Include details of materials, procedures, and the overall approach.
+
+% Results
+\section{Results}
+Present the key findings of the study. Use tables, figures, and descriptive text to illustrate your results. 
+
+% Example of a figure
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{example-image} % Replace with your image file
+    \caption{This is an example of a figure.}
+    \label{fig:example}
+\end{figure}
+
+% Discussion
+\section{Discussion}
+Interpret the results and provide explanations for observed trends. Compare the findings with previous studies.
+
+% Conclusion
+\section{Conclusion}
+Summarize the research, highlighting the main findings and their significance. Suggest areas for future research.
+
+% References
+\begin{thebibliography}{9}
+\bibitem{ref1} Author Name, \textit{Title of the Reference}, Journal Name, Year.
+\bibitem{ref2} Author Name, \textit{Title of the Reference}, Journal Name, Year.
+\end{thebibliography}
+
+\end{document}
