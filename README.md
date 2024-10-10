@@ -1,6 +1,6 @@
 # Wissenschaftliche Arbeit in Physik
 
-**Thema der Arbeit**: [Titel der wissenschaftlichen Arbeit einfügen]
+**Thema der Arbeit**: Wirtz Pumpe
 
 ## Autoren
 - **Kian Moldenhauer**  
